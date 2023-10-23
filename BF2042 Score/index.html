@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<main class="main">
+		<div class="wrapper">
+			<div class="input-wrapper">
+				<label for="win">
+					<div class="myCustom-text">
+						<h4 class="animate__animated animate__pulse animate__infinite custom__text animate__custom-pulse">W</h4>
+						<span class="dots">:</span>
+					</div>
+				</label>
+				<input type="number" name="win" class="win">
+			</div>
+			<div class="input-wrapper">
+				<label for="loss">
+					<div class="myCustom-text">
+						<h4 class="animate__animated animate__pulse animate__infinite custom__text animate__custom-pulse">L</h4>
+						<span class="dots">:</span>
+					</div>
+				</label>
+				<input type="number" name="loss" class="loss">
+			</div>
+		</div>
+		<div class="total">
+			<label class="winrate">Win Rate:</label>
+			<span class="average-winrate">0%</span>
+		</div>
+	</main>
+
+	<script src="main.js"></script>
+</body>
+</html>

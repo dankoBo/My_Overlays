@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+.main {
+	background-color: #000000;
+	border-radius: 0 0 14px 14px;
+}
+
+.wrapper {
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 20px;
+}
+
+input[type="number"] {
+	background: #000;
+	width: 40px;
+	height: 50px;
+	text-align: center;
+	appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+label {
+	font-family: cursiv4;
+	font-size: 50px;
+}
+
+
+.win {
+	border: 4px solid green;
+	border-radius: 10px;
+	color: green;
+	font-size: 40px;
+}
+
+.loss {
+	border: 4px solid red;
+	border-radius: 10px;
+	font-size: 40px;
+	color: red;
+}
+
+.myCustom-text {
+	width: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.custom__text, .dots, .winrate {
+	color: goldenrod;
+}
+
+.total {
+	text-align: center;
+}
+
+.winrate {
+	margin-right: 20px;
+	font-size: 40px;
+}
+
+.average-winrate {
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+
+
+
+@keyframes customPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+.animate__custom-pulse {
+    animation: customPulse 1.5s infinite;
+}
